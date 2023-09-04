@@ -12,7 +12,7 @@ import { TrabalheConoscoComponent } from './navegacao/trabalhe-conosco/trabalhe-
 
 const routes: Routes = [
   { path: '', pathMatch:'full', component: HomeComponent},
-  { path: 'caradapio', component: CardapioComponent},
+  { path: 'cardapio', component: CardapioComponent},
   { path: 'menu', component: MenuComponent},
   { path: 'onde-encontrar', component: OndeEncontrarComponent},
   { path: 'politica-de-privacidade', component: PoliticaDePrivacidadeComponent},

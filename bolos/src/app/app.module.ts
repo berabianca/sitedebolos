@@ -11,6 +11,8 @@ import { SejaUmFranqueadoComponent } from './navegacao/seja-um-franqueado/seja-u
 import { TrabalheConoscoComponent } from './navegacao/trabalhe-conosco/trabalhe-conosco.component';
 import { PoliticaDePrivacidadeComponent } from './navegacao/politica-de-privacidade/politica-de-privacidade.component';
 import { HomeComponent } from './navegacao/home/home.component';
+import { CabecalhoComponent } from './navegacao/cabecalho/cabecalho.component';
+import { FooterComponent } from './navegacao/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { HomeComponent } from './navegacao/home/home.component';
     SejaUmFranqueadoComponent,
     TrabalheConoscoComponent,
     PoliticaDePrivacidadeComponent,
-    HomeComponent
+    HomeComponent,
+    CabecalhoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
