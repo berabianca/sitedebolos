@@ -10,6 +10,7 @@ import { CardapioComponent } from './navegacao/cardapio/cardapio.component';
 import { SejaUmFranqueadoComponent } from './navegacao/seja-um-franqueado/seja-um-franqueado.component';
 import { TrabalheConoscoComponent } from './navegacao/trabalhe-conosco/trabalhe-conosco.component';
 import { PoliticaDePrivacidadeComponent } from './navegacao/politica-de-privacidade/politica-de-privacidade.component';
+import { HomeComponent } from './navegacao/home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PoliticaDePrivacidadeComponent } from './navegacao/politica-de-privacid
     CardapioComponent,
     SejaUmFranqueadoComponent,
     TrabalheConoscoComponent,
-    PoliticaDePrivacidadeComponent
+    PoliticaDePrivacidadeComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
